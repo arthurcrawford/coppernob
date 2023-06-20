@@ -2,10 +2,10 @@ from setuptools import setup
 
 setup(
     name='coppernob',
-    version='1.1',
+    version='1.2',
     py_modules=['myscript'],
     install_requires=[
-        'Click',
+        'click',
     ],
     entry_points={
         'console_scripts': [
